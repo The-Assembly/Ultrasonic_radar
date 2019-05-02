@@ -99,5 +99,5 @@ void serialEvent (Serial port)
   serialDistance= serialData.substring(index+1, serialData.length());
   
   radarAngle = int(serialAngle);
-  radarDistance = int(serialDistance);*/
+  radarDistance = int(serialDistance);
 }
